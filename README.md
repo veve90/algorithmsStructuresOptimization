@@ -10,10 +10,18 @@ These are mostly notes from my lecture: "Crackin the Coding Interview" by Gayle 
     *  ArrayList & Resizable Arrays
         * In java ArrayList is the resizable array. The resizing factor is 2
         * amortized insertion runtime O(1)
-    *  String Builder
+    *  String Builder:
+        * string that is optimized when we are adding and adding again data to the string  
 * linked lists
 * trees, tries, graphs
-* stachs(FILO), queues(FIFO)
+    * trees have a root node and some child nodes and cannot contain cycles
+    * leaf=node without any child
+    * binray tree != binary search tree
+    * binary search tree: all left descendents <= n < all right descendents
+    * balanced search tree = not terribly imbalanced, balanced enough to ensure O(log n) for insert and find
+    * balanced trees: AVL and red-black trees
+* stacks(FILO), queues(FIFO)
+    * queues are used in breadth-first search and in implementing caches
 * heaps
 * vectors
 
